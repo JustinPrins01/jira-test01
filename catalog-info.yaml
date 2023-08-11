@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jira-test02
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
+annotations:
+   jira/project-key: BPT
+  
+spec:
+  type: service
+  owner: someone
+  lifecycle: experimental
